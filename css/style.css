@@ -1,0 +1,93 @@
+html{
+  font-family: "lato","Helvetica Neue","Times New Roman","Helvetica","Arial",sans-serif;
+}
+
+header{
+  background-color: black;
+}
+body{
+  background-color: #d9d9d9;
+  margin: 0;
+}
+.fake{
+  font-size: 25px;
+  text-align: center;
+  color: black;
+}
+#header-container{
+  width: 80%;
+  height: 670px;
+  margin : auto;
+  background-image: url(../imgs/banner-top-fd.jpg); /*1600x880px l'image*/
+  background-position: 0% 0%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#header-top{
+height: 100px;
+}
+.header-top-column{
+  width: 50%;
+  float :left;
+}
+.header-top-column nav{
+  text-align: right;
+  margin-right: 18%;
+  margin-top: 32px;
+}
+#header-logo{
+ margin-left: 20%;
+}
+.header-menu li {
+  list-style-type: none;
+  display: inline;
+  color: #ffffff;
+  padding-right: 20px;
+  font-size: .6em;
+  font-weight: 800;
+}
+#header-bottom{
+  width: 50%;
+  margin: auto;
+  color: #ffffff;
+  text-align: center;
+  height: auto;
+}
+#headerTxt1{
+  font-family: "Times New roman";
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2em;
+  color: rgb(235, 235, 235);/* alternative solide*/
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 160px;
+  margin-bottom: 0px;
+}
+#headerTxt2{
+  font-weight: 70;
+  font-size: 85px;
+  margin-top: -5px;
+  margin-bottom: 25px;
+  letter-spacing: 0.05em;
+
+}
+.btnRectangleContour {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.8em;
+  border: 3px solid #ffffff;
+  border-radius: 1px;
+  -moz-border-radius:1px;
+  -webkit-border-radius:1px;
+  padding: 14px 60px;
+}
+.btnRectangleContour:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+#headerTxt3{
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 10px;
+  font-weight: 800;
+}
