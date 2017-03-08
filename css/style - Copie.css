@@ -1,7 +1,7 @@
-/* TODO: optimiser les images */
 html{
   font-family: "lato","Helvetica Neue","Times New Roman","Helvetica","Arial",sans-serif;
 }
+
 header{
   background-color: black;
 }
@@ -191,16 +191,15 @@ height: 100px;
   opacity:1;
 }
 #browse-container{
-  background-color: #ffffff;
+  background-color: yellow;
   width: 100%;
+  height: 800px;
   margin: auto;
-  overflow: auto;
 }
 .browse-content{
   padding-top: 60px;
   text-align: center;
   margin: auto;
-  clear: both;
 }
 .browse-content h2{
   font-size: 1.1em;
@@ -208,13 +207,23 @@ height: 100px;
   font-weight:800;
   margin-bottom: -10px;
 }
-.browse-line {
-  padding-top: 20px;
-  text-align: center;
-  width: 80%;
-  margin: auto;/* TODO: quand je reduit la fenêtre du navigateur, au passage sur 2 colonnes, comment faire pour centrer le contenu ?  */
+.browse-table {
+padding-top: 40px;
 }
-.browse-line p{
+
+
+.browse-table table{
+  margin: auto; /*centrer le tableau*/
+  border-collapse: collapse;
+  padding: 0px;
+  max-height: 168px;
+
+}
+.browse-table tr,td {
+  padding:0px;
+  border: 0px;
+}
+.browse-table p{
   color:#ffffff;
   font-family: "Times New roman";
   font-style: italic;
@@ -224,77 +233,45 @@ height: 100px;
   padding-top:60px;
   padding-bottom: 0px;
 }
-.browse-line h1{
+.browse-table h1{
   color:#ffffff;
-  font-size: 1.6em;
-  letter-spacing: 2px;
-  font-weight: 700;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.browse-img{
-  background-repeat: none;
+.browse-img1-1{
+  background-image: url(../imgs/browse-italian.jpg);
   background-size: 100%;
-  width: 240px;
   height: 168px;
-  float: left;
+  background-repeat: none;
 }
-#stat-container{
-  background-color: #ffffff;
-  margin: auto;
-  width: 100%;
-  overflow: auto;
+.browse-img1-2{
+  background-image: url(../imgs/browse-indian.jpg);
+  background-size: 100%;
+  height: 168px;
+  background-repeat: none;
 }
-.stat-content{
-  width:75%;
-  margin: auto;
-  text-align: center;
+.browse-img1-3{
+  background-image: url(../imgs/browse-french.jpg);
+  background-size: 100%;
+  height: 168px;
+  background-repeat: none;
 }
-.col-5{
-  float: left;
-  width: 20%;
+.browse-img1-4{
+  background-image: url(../imgs/browse-steackhouse.jpg);
+  background-size: 100%;
+  height: 168px;
+  background-repeat: none;
 }
-.col-5 h1{
-  font-size: 1.8em;
-  margin:0px;
-  padding-top: 35px;
+.browse-img1-5{
+  background-image: url(../imgs/browse-seafood.jpg);
+  background-size: 100%;
+  height: 168px;
+  background-repeat: none;
 }
-.col-5 p{
-  margin: 0;
-  font-weight: lighter;
-  padding-top: 0px;
-  padding-bottom: 35px;
-}
-.footer-line{
-  width:100%;
-  height: 1px;
-  background-color: #e2e2e2;
-}
-.footer-content{
-  width:100%;
-  padding-top: 28px;
-  height: 45px;
-  background-color: #f7f7f7;
-}
-.copyright{
-  float: left;
-  text-align: left;
-  width: 34%;
-  padding-left: 16%;
-  color:#c3bebe;
-  font-size: 0.7em;
 
-}
-.credits{
-  float: left;
-  text-align: right;
-  width: 34%;
-  padding-right: 16%;
-  color:#c3bebe;
-  font-size: 0.8em;
-  font-weight: 600;
-}
-.credits-link{
-  text-decoration: none;
-  color: #000000;
+.browse-img2-1{
+  background-image: url(../imgs/browse-sushi.jpg);
+  background-size: 100%;
+  height: 168px;
+  background-repeat: none;
 }
